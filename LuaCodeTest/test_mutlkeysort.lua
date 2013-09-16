@@ -1,3 +1,5 @@
+
+
 s = {{a = 2,b = 5},{a = 1,b = 6},{a = 2,b = 6},{a = 1,b = 3}}
 
 function  tool(A,B)
