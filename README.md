@@ -3,4 +3,4 @@ CodeFragment
 
 CodeFragment
 
-用来测试语言语法的代码。
+用来记录平常写的各种碎片代码。
