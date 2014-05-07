@@ -26,6 +26,6 @@ local BinaryFunc = string.dump(temp_table.fun)
 
 print("BinaryFunc",BinaryFunc)  --a string  containing a binary representation of the given function
 
-local OrgialFunc = loadstring(BinaryFunc) --for lua 5.1
+local OrgialFunc = loadstring(BinaryFunc) --for lua 5.1,can also use load in lua 5.2
 
 OrgialFunc() --output:  Test function dump
