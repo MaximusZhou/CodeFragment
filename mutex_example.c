@@ -32,13 +32,13 @@ int main(int argc, char **argv)
 
 	if (argc != 3)
 	{
-		printf("usage: prodcons4 <#items> <#threads>\n");
+		printf("usage: mutex_example <#items> <#threads>\n");
 		return 1;
 	}
 	nitems = MIN(atoi(argv[1]), MAXNITEMS);
 	nthreads = MIN(atoi(argv[2]), MAXNTHREADS);
 
-	printf("main:%d,%d,%d",shared.nput,shared.nval,shared.buff[0]);
+	printf("main:%d,%d,%d\n",shared.nput,shared.nval,shared.buff[0]);
 
 	/* create all producers and one consumer */
 	for (i = 0; i < nthreads; i++) {
